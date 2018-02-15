@@ -1,0 +1,8 @@
+# Resources
+*.zip
+.htaccess
+.ftpconfig
+.gitignore
+
+# Styles
+*.scss
