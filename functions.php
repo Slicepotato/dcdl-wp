@@ -52,6 +52,32 @@
   }
   add_action( 'widgets_init', 'site_widgets' );
 
+  function dynamic_sidebar() {
+    register_sidebar(
+      array(
+        'name' => 'Widget Area 1',
+        'id' => 'widget-area-1',
+        'description' => 'Appears in the Sidebar area',
+        'before_widget' => '<article id="%1$s" class="widget %2$s">',
+        'after_widget' => '</article>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+      )
+    );
+    register_sidebar(
+      array(
+        'name' => 'Widget Area 2',
+        'id' => 'widget-area-2',
+        'description' => 'Appears in the Sidebar area',
+        'before_widget' => '<article id="%1$s" class="widget %2$s">',
+        'after_widget' => '</article>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+      )
+    );
+  }
+  add_action( 'widgets_init', 'dynamic_sidebar' );
+
   function site_logo() {
     register_sidebar(
       array(
