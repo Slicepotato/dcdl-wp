@@ -97,9 +97,4 @@
       wp_enqueue_script( 'dcdl_theme_js', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ), '1.0', true );
   }
   add_action('wp_enqueue_scripts', 'theme_js');
-
-  function theme_css() {
-    wp_enqueue_style( 'main', get_template_directory_uri() . '/css/style.css' );
-  }
-  add_action('wp_enqueue_scripts', 'theme_css');
 ?>
