@@ -65,8 +65,10 @@ BREAKPOINTS
 /* =================================================================
 flex settings
 ================================================================= */
-.splash {
+.page-template-splash {
   background-color: #21333B;
+  height: 100%;
+  width: 100%;
 }
 
 .splash main {
