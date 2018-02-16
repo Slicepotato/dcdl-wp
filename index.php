@@ -1,7 +1,3 @@
-<?php
-/* Template Name: Splash */
-?>
-
 <?php get_header(); ?>
 
 	<main>
