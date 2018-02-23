@@ -1,3 +1,7 @@
+<?php
+/* Template Name: full-width */
+?>
+
 <?php get_header(); ?>
 
 	<main>
@@ -13,8 +17,6 @@
 			?>
 
 		</div> <!-- /.blog-main -->
-
-		<?php get_sidebar(); ?>
 
 	</main> <!-- /.row -->
 
