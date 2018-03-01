@@ -207,6 +207,37 @@ main .post h2 {
   margin-bottom: .25rem;
 }
 
+main .post .together {
+  position: relative;
+  padding-bottom: 30.46%;
+  background-image: url("http://www.derbycitydesignlab.com/wp-content/uploads/2018/02/together.jpg");
+  background-size: cover;
+}
+
+main .post .together:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+main .post .together p {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3vw;
+  line-height: 1.25em;
+}
+
+@media (min-width: 1160px) {
+  main .post .together p {
+    font-size: 2em;
+  }
+}
+
 footer {
   padding: 2rem 0 4rem;
   background-color: #000F08;
