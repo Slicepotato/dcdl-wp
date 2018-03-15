@@ -3,6 +3,7 @@
 .htaccess
 .ftpconfig
 .gitignore
+.vscode
 
 # Styles
 *.scss
